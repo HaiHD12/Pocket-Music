@@ -7,14 +7,24 @@
 //
 
 import UIKit
+import Firebase
+import GoogleMaps
+import GooglePlaces
+
+let primary = UIColor(red: 245/255, green: 179/255, blue: 22/255, alpha: 1)
+let secondary = UIColor(red: 98/255, green: 100/255, blue: 86/255, alpha: 1)
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        FirebaseApp.configure()
+        
+        GMSServices.provideAPIKey("GET API VALUE FROM GOOGLE CONSOLE")
+        GMSPlacesClient.provideAPIKey("GET API VALUE FROM GOOGLE CONSOLE")
+        
         // Override point for customization after application launch.
         return true
     }

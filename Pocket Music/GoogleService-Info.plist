@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>78376672624-9v1fc2ff5hc47b6ch43qf2u0e32t04s5.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.78376672624-9v1fc2ff5hc47b6ch43qf2u0e32t04s5</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCw6eGfR9V8LfqBBX-8UlA3fwsr3wPMWEs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>78376672624</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>projects.Pocket-Music</string>
+	<key>PROJECT_ID</key>
+	<string>pocketmusic-ee706</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pocketmusic-ee706.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:78376672624:ios:a32a8c20cd13cde1</string>
+	<key>DATABASE_URL</key>
+	<string>https://pocketmusic-ee706.firebaseio.com</string>
+</dict>
+</plist>

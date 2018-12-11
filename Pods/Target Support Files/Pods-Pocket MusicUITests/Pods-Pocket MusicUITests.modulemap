@@ -1,0 +1,6 @@
+framework module Pods_Pocket_MusicUITests {
+  umbrella header "Pods-Pocket MusicUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
