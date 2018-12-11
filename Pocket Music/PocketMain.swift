@@ -70,7 +70,7 @@ class PocketMain: UIViewController, PlaylistDelegate {
         super.didReceiveMemoryWarning()
     }
     
-    @IBAction func play(sender: UIButton) {
+    @IBAction func play(_ sender: Any) {
         if player != nil {
             if !player.isPlaying {
                 player.play()
